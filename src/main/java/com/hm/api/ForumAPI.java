@@ -36,7 +36,7 @@ public class ForumAPI {
         return ResponseEntity.ok(topics.get(name));
     }
 
-    @RequestMapping(value = "/post/name", method = RequestMethod.POST)
+    @RequestMapping(value = "/post", method = RequestMethod.POST)
     public ResponseEntity post (@RequestParam("name") String name,
                                 @RequestParam("text") String text,
                                 @RequestParam("login") String login,
