@@ -17,6 +17,6 @@ public class UserHolder {
     }
 
     public static User search(String login, String pass) {
-        return users.stream().filter(user-> user.getLogin().equals(login) && user.getPass().equals(pass)).findFirst().orElse(null);
+        return users.stream().filter(user -> user.getLogin().equals(login) && user.getPass().equals(pass)).findFirst().orElse(null);
     }
 }
