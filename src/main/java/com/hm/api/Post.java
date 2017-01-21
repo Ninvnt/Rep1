@@ -3,7 +3,7 @@ package com.hm.api;
 
 public class Post {
     private String message;
-    private String userid;
+    private String userLogin;
 
     public String getMessage() {
         return message;
@@ -13,11 +13,11 @@ public class Post {
         this.message = message;
     }
 
-    public String getUserid() {
-        return userid;
+    public String getuserLogin() {
+        return userLogin;
     }
 
-    public void setUserid(String userid) {
-        this.userid = userid;
+    public void setuserLogin(String userid) {
+        this.userLogin = userid;
     }
 }
