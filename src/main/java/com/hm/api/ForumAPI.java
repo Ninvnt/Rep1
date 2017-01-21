@@ -24,6 +24,7 @@ public class ForumAPI {
     public ResponseEntity createForum (@RequestParam("name") String name)  {
         Topic topic = new Topic();
         topic.setName(name);
+        topics.add(topic);
         return ResponseEntity.ok(topic);
     }
 
