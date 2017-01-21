@@ -14,10 +14,6 @@ public class User {
         this.id = UUID.randomUUID().toString();
     }
 
-    public String getID() {
-        return id;
-    }
-
     public String getId() {
         return id;
     }
